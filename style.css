@@ -14,14 +14,76 @@
         color: white;
     }
 }
+.container {
+    margin: 0;
+    max-width: 100%;
+    width: 100vw;
+    padding: 0;
+}
+.row {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    
+    padding: 0;
+}
+.col-md-12 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("Images/2017_12_08_141155_1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw ;
+    width: 100vw;
+}
+.imageSegment {
+    max-width:auto;
+    height: 110%;
+    position: absolute;
+}
+.transparentElement {
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 100vw;
+    height: 100vh;
+}
 .logoClass {
     background-color: #22384D;
     color: white;
 
 }
+.whyChoose {
+    width: 100%;
+    border-style: dotted;
+    border-color: yellow;
+    background-color: rgba(255, 255, 255, 0.808);
+    margin-left: 16.66vw;
+    margin-top: 5vh;
+}
 .logoClass h1 {
     padding-left: 50%;
     /*Needs to factor in width of logo also*/
+}
+.blueBack {
+    background-color: rgb(9, 99, 129);
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    padding: 10%;
+    padding-left: 17%;
+        padding-right: 17%;
+        margin: 0;
+        
+}
+.centeredCurly {
+    text-align: center;
+    padding-top: 30vh;
+    font-size: 5vw;
+}
+.centeredSubtitle {
+    text-align: center;
+    font-size: 3vw;
 }
 .logoClass h5 {
     text-align: center;
