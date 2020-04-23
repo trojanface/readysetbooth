@@ -1,9 +1,33 @@
-.blueElement {
-    background-color: #22384D;
-    color: white;
+@media only screen and (min-width: 992px) {
+    .blueElement {
+        background-color: #22384D;
+        color: white;
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+
 }
 
-.whiteMenuText{
+@media only screen and (max-width: 991px) {
+    .blueElement {
+        background-color: #22384D;
+        color: white;
+    }
+}
+.logoClass {
+    background-color: #22384D;
+    color: white;
+
+}
+.logoClass h1 {
+    padding-left: 50%;
+    /*Needs to factor in width of logo also*/
+}
+.logoClass h5 {
+    text-align: center;
+    margin-bottom: 0;
+}
+.whiteMenuText {
     padding-right: .5rem;
     padding-left: .5rem;
     display: block;
@@ -12,7 +36,7 @@
     text-decoration: none;
 }
 
-.whiteMenuText:hover{
+.whiteMenuText:hover {
     padding-right: .5rem;
     padding-left: .5rem;
     display: block;
